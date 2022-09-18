@@ -1,0 +1,17 @@
+{
+  "name": "send-contact-form",
+  "version": "1.0.0",
+  "description": "An AWS Lambda for handling contact form submissions.",
+  "private": true,
+  "dependencies": {
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^6.4.2"
+  },
+  "scripts": {
+    "test": "node_modules/node-env-run/dist/bin/node-env-run.js test.js"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.635.0",
+    "node-env-run": "^4.0.2"
+  }
+}
