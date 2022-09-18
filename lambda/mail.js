@@ -3,8 +3,6 @@
 var nodemailer = require('nodemailer')
 
 const MAIL_FROM = process.env.MAIL_FROM
-const MAIL_TO = process.env.MAIL_TO
-
 const recipients = process.env.MAIL_TO.split(/\s*,\s*/);
 
 // Node mailer
